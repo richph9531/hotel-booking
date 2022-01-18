@@ -1,0 +1,23 @@
+{
+  "name": "hotel-booking",
+  "version": "1.0.0",
+  "description": "automated tests for a hotel booking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richph9531/hotel-booking.git"
+  },
+  "author": "Richard Philips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richph9531/hotel-booking/issues"
+  },
+  "homepage": "https://github.com/richph9531/hotel-booking#readme",
+  "dependencies": {
+    "jest": "^27.4.7",
+    "pptr": "^0.0.0"
+  }
+}
