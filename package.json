@@ -19,7 +19,8 @@
   "homepage": "https://github.com/richph9531/hotel-booking#readme",
   "dependencies": {
     "axios": "0.25.0",
-    "lodash": "4.17.21"
+    "lodash": "4.17.21",
+    "moment": "2.29.1"
   },
   "devDependencies": {
     "eslint": "8.7.0",
