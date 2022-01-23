@@ -43,39 +43,41 @@ Example of a POST curl:
     }'
 
 ***Name fields***
-    √ can post a booking with firstName that contains special characters
-    √ can post a booking with lastName that contains special characters
-    √ can post a booking with firstName that contains spaces
-    √ can post a booking with lastName that contains spaces
-    √ cannot post without a firstName
-    √ cannot post with a blank firstName
-    √ cannot post without a lastName
-    √ cannot post with a blank lastName
-    ○ cannot post with firstName of spaces only
-    ○ cannot post with lastName of spaces only
+
+ - can post a booking with firstName that contains special characters
+ - can post a booking with lastName that contains special characters
+ - can post a booking with firstName that contains spaces
+ - can post a booking with lastName that contains spaces
+ - cannot post without a firstName
+ - cannot post with a blank firstName
+ - cannot post without a lastName
+ - cannot post with a blank lastName
+ - cannot post with firstName of spaces only **(FAILS)**
+ - cannot post with lastName of spaces only **(FAILS)**
+
 
 ***totalPrice field***
-    √ can post a booking with a totalPrice of zero
-    √ can post a booking with a totalPrice of 1000,000,000
-    √ cannot post without a totalPrice
-    √ cannot post with an invalid totalPrice
-    ○ cannot post with a negative totalPrice
+ - can post a booking with a totalPrice of zero
+ - can post a booking with a totalPrice of 1000,000,000
+ - cannot post without a totalPrice
+ - cannot post with an invalid totalPrice
+ - cannot post with a negative totalPrice **(FAILS)**
 
 ***depositPaid boolean***
-    √ can post a booking with depositPaid = true
-    √ can post a booking with depositPaid = false
-    √ cannot post without a depositPaid boolean
-    ○ cannot post with an invalid depositPaid boolean
+ - can post a booking with depositPaid = true
+ - can post a booking with depositPaid = false
+ - cannot post without a depositPaid boolean
+ - cannot post with an invalid depositPaid boolean **(FAILS)**
 
 ***date fields***
-    √ cannot post without a booking dates object
-    √ cannot post without a checkIn date
-    √ cannot post with an invalid checkIn date
-    √ cannot post without a checkOut date
-    √ cannot post with an invalid checkOut date
-    ○ cannot post with a historic checkIn date
-    ○ cannot post with a historic checkOut date
-    ○ cannot post with a checkOut date before the checkInDate
+ - cannot post without a booking dates object
+ - cannot post without a checkIn date
+ - cannot post with an invalid checkIn date
+ - cannot post without a checkOut date
+ - cannot post with an invalid checkOut date
+ - cannot post with a historic checkIn date **(FAILS)**
+ - cannot post with a historic checkOut date **(FAILS)**
+ - cannot post with a checkOut date before the checkInDate **(FAILS)**
 
 Example of a DELETE curl:
 
