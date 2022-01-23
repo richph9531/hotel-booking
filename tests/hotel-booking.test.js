@@ -59,8 +59,6 @@ describe('Positive test scenarios', () => {
       bookingid: response.data.bookingid,
       booking: data,
     };
-    // console.log(response.data);
-    // console.log(expectedResponse);
     expect(response.data).toEqual(expectedResponse);
 
     await deleteData(response.data.bookingid);
