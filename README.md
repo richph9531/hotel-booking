@@ -132,15 +132,15 @@ I created a suite of tests using a Javascript framework that I am familiar with.
 The test suite runs to completion in around 10 seconds and covers all of the scenarios I listed under the manual tests.
 
 **Steps to run in pipeline:**
-1. Trigger a workflow from the actions tab of this Gitlab project.
-2. View the workflow steps to see the test output.
+1. Navigate to the **actions** tab of this Gitlab project.
+2. Click into the **Workflow for running tests**.
+3. Click the **Re-run all jobs** button.
+4. View the tests running under the **Run npm test** job.
 
 **Steps to run locally:**
  1. Clone this repository.
  2. Install NodeJS and npm from here: https://nodejs.org/en/download/
  3. From the command line within the project's root directory, run:
  -     npm install
- -     npm run test
+ -     npm test
 ## 
-
-I am more than happy to demo the test suite or to walk you through my thinking and or approach. Please don't hestitate to get in touch.
