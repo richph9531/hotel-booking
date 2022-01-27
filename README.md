@@ -5,7 +5,7 @@
 
 **Completed for Equal Experts**
 
-**by Richard Philips (0722129531)**  
+**by Richard Philips**  
 
 Application under test: http://hotel-test.equalexperts.io/
 
