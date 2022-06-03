@@ -18,16 +18,16 @@
   },
   "homepage": "https://github.com/richph9531/hotel-booking#readme",
   "dependencies": {
-    "axios": "0.25.0",
+    "axios": "0.27.2",
     "lodash": "4.17.21",
-    "moment": "2.29.1"
+    "moment": "2.29.3"
   },
   "devDependencies": {
-    "eslint": "8.7.0",
+    "eslint": "8.16.0",
     "eslint-config-airbnb": "19.0.4",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-jest": "25.7.0",
-    "jest": "27.4.7",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.4.6",
+    "jest": "28.1.0",
     "jest-expect-message": "1.0.2"
   }
 }
